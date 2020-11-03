@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7F1E8"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.delaroystudios.studentmgt.StudentMainActivity" >
+
+    <EditText
+        android:id="@+id/msv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Mã Sinh Viên"
+        android:inputType="number"
+        android:textColorHint="#000">
+    </EditText>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Họ và Tên "
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:id="@+id/mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Điểm"
+        android:textColorHint="#000"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="Thêm"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="Sửa"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="Xóa"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/viewbtn"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="Xem"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/viewallbtn"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="Xem Hết"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/showbtn"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="Tác Giả"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
